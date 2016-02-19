@@ -9,5 +9,18 @@
 #ifndef FMConstant_h
 #define FMConstant_h
 
+#define APP_TAOBAO_KEY              @"23312025"
+#define APP_TAOBAO_SECRET           @"6b4b8a0597a45770099ee71d553c31f0"
+
+#if (defined FMConstant_h)
+
+#define APP_TAOBAO_SERVER           @"https://eco.taobao.com/router/rest"
+
+#else
+
+#define APP_TAOBAO_SERVER           @"https://gw.api.tbsandbox.com/router/rest"
+
+#endif
+
 
 #endif /* FMConstant_h */
