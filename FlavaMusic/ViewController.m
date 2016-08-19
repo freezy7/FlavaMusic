@@ -8,8 +8,15 @@
 
 #import "ViewController.h"
 #import "FMDataService.h"
+#import "FMScrollHeaderCell.h"
+#import "FMRefreshHeaderView.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+{
+    FMRefreshHeaderView *_refreshHeaderView;
+    
+    UITableView *_tableView;
+}
 
 @end
 
@@ -25,11 +32,56 @@
         
     }];
     
+    _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    _tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+    _tableView.backgroundColor = [UIColor clearColor];
+    [self.view addSubview:_tableView];
+    
+    _refreshHeaderView = [[FMRefreshHeaderView alloc] initWithFrame:CGRectMake(0, -64, _tableView.frame.size.width, 64)];
+    _refreshHeaderView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+    _refreshHeaderView.defaultContentInset = _tableView.contentInset;
+    [_tableView addSubview:_refreshHeaderView];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 10;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 200;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellID = @"FMScrollHeaderCell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+    if (cell == nil) {
+        cell = [[FMScrollHeaderCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+    }
+    return cell;
+    return [[UITableViewCell alloc] init];
+}
+
+#pragma mark - scrollViewDelegate
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    [_refreshHeaderView refreshHeaderViewDidScroll:scrollView];
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
+{
+    [_refreshHeaderView refreshHeaderViewDidEndDragging:scrollView];
 }
 
 @end
