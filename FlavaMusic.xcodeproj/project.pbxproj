@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54091EF01D9238AE00690DE5 /* FMScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54091EEF1D9238AE00690DE5 /* FMScanViewController.m */; };
-		543DF3041CA38FB9004F615F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 543DF3031CA38FB9004F615F /* Info.plist */; };
-		543DF30D1CA39883004F615F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 543DF30F1CA39883004F615F /* Localizable.strings */; };
-		543DF3131CA3BED1004F615F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 543DF3151CA3BED1004F615F /* InfoPlist.strings */; };
 		5475DB101C76C56C0033C1E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475DB0F1C76C56C0033C1E9 /* main.m */; };
 		5475DB131C76C56C0033C1E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475DB121C76C56C0033C1E9 /* AppDelegate.m */; };
 		5475DB161C76C56C0033C1E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475DB151C76C56C0033C1E9 /* ViewController.m */; };
@@ -21,7 +17,7 @@
 		5475DB2C1C76C56C0033C1E9 /* FlavaMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475DB2B1C76C56C0033C1E9 /* FlavaMusicTests.m */; };
 		5475DB371C76C56C0033C1E9 /* FlavaMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475DB361C76C56C0033C1E9 /* FlavaMusicUITests.m */; };
 		54FD613F1C76E7760022CA54 /* FMDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD613E1C76E7760022CA54 /* FMDataService.m */; };
-		E807D933F687F84BB4C370F5 /* libPods-FlavaMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD50436DEA5AED0644E20D96 /* libPods-FlavaMusic.a */; };
+		58800255446FE83DE3C8DB06 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A541505D9F27F43A8805BD /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,17 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05ACC330BC9C75D8C0FB38CF /* Pods-FlavaMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavaMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlavaMusic/Pods-FlavaMusic.debug.xcconfig"; sourceTree = "<group>"; };
-		106AD8489B80D9B53A180590 /* Pods-FlavaMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavaMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlavaMusic/Pods-FlavaMusic.release.xcconfig"; sourceTree = "<group>"; };
-		54091EEE1D9238AE00690DE5 /* FMScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMScanViewController.h; sourceTree = "<group>"; };
-		54091EEF1D9238AE00690DE5 /* FMScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMScanViewController.m; sourceTree = "<group>"; };
-		543DF2F51CA3828D004F615F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
-		543DF2F61CA3828D004F615F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		543DF3031CA38FB9004F615F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		543DF30E1CA39883004F615F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		543DF3101CA39885004F615F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		543DF3141CA3BED1004F615F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		543DF3161CA3BED3004F615F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0DD6B20961A9B8981DD5EACF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		5475DB0B1C76C56C0033C1E9 /* FlavaMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlavaMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5475DB0F1C76C56C0033C1E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5475DB111C76C56C0033C1E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +49,7 @@
 		5475DB1B1C76C56C0033C1E9 /* FlavaMusic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlavaMusic.xcdatamodel; sourceTree = "<group>"; };
 		5475DB1D1C76C56C0033C1E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5475DB201C76C56C0033C1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5475DB221C76C56C0033C1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5475DB271C76C56C0033C1E9 /* FlavaMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlavaMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5475DB2B1C76C56C0033C1E9 /* FlavaMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlavaMusicTests.m; sourceTree = "<group>"; };
 		5475DB2D1C76C56C0033C1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,7 +60,8 @@
 		54FD613E1C76E7760022CA54 /* FMDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDataService.m; sourceTree = "<group>"; };
 		54FD61401C76EA1A0022CA54 /* FlavaMusic-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlavaMusic-prefix.pch"; sourceTree = "<group>"; };
 		54FD61411C76EAEA0022CA54 /* FMConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMConstant.h; sourceTree = "<group>"; };
-		FD50436DEA5AED0644E20D96 /* libPods-FlavaMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlavaMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79C7AA873AB4EF818C6F94F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D5A541505D9F27F43A8805BD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E807D933F687F84BB4C370F5 /* libPods-FlavaMusic.a in Frameworks */,
+				58800255446FE83DE3C8DB06 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +90,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1940FCCCA0E5EFE336D66C91 /* Frameworks */ = {
+		072A26DEFE94F768A301AA5A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FD50436DEA5AED0644E20D96 /* libPods-FlavaMusic.a */,
+				A79C7AA873AB4EF818C6F94F /* Pods.debug.xcconfig */,
+				0DD6B20961A9B8981DD5EACF /* Pods.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		5475DB021C76C56C0033C1E9 = {
@@ -117,8 +106,8 @@
 				5475DB2A1C76C56C0033C1E9 /* FlavaMusicTests */,
 				5475DB351C76C56C0033C1E9 /* FlavaMusicUITests */,
 				5475DB0C1C76C56C0033C1E9 /* Products */,
-				6803E58D83A89FE5ECA6F607 /* Pods */,
-				1940FCCCA0E5EFE336D66C91 /* Frameworks */,
+				072A26DEFE94F768A301AA5A /* Pods */,
+				CFCF62624B7F667A61FC9344 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,16 +128,12 @@
 				5475DB121C76C56C0033C1E9 /* AppDelegate.m */,
 				5475DB141C76C56C0033C1E9 /* ViewController.h */,
 				5475DB151C76C56C0033C1E9 /* ViewController.m */,
-				54091EEE1D9238AE00690DE5 /* FMScanViewController.h */,
-				54091EEF1D9238AE00690DE5 /* FMScanViewController.m */,
 				5475DB171C76C56C0033C1E9 /* Main.storyboard */,
 				54FD61411C76EAEA0022CA54 /* FMConstant.h */,
 				54FD61391C76E7430022CA54 /* FMCommon */,
 				5475DB1D1C76C56C0033C1E9 /* Assets.xcassets */,
 				5475DB1F1C76C56C0033C1E9 /* LaunchScreen.storyboard */,
-				543DF3031CA38FB9004F615F /* Info.plist */,
-				543DF3151CA3BED1004F615F /* InfoPlist.strings */,
-				543DF30F1CA39883004F615F /* Localizable.strings */,
+				5475DB221C76C56C0033C1E9 /* Info.plist */,
 				5475DB1A1C76C56C0033C1E9 /* FlavaMusic.xcdatamodeld */,
 				54FD61351C76E4620022CA54 /* Resource */,
 				5475DB0E1C76C56C0033C1E9 /* Supporting Files */,
@@ -223,13 +208,12 @@
 			path = view;
 			sourceTree = "<group>";
 		};
-		6803E58D83A89FE5ECA6F607 /* Pods */ = {
+		CFCF62624B7F667A61FC9344 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				05ACC330BC9C75D8C0FB38CF /* Pods-FlavaMusic.debug.xcconfig */,
-				106AD8489B80D9B53A180590 /* Pods-FlavaMusic.release.xcconfig */,
+				D5A541505D9F27F43A8805BD /* libPods.a */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,12 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5475DB3B1C76C56D0033C1E9 /* Build configuration list for PBXNativeTarget "FlavaMusic" */;
 			buildPhases = (
-				2622AFE2B8C5C0ED151DA02A /* [CP] Check Pods Manifest.lock */,
+				5F93A77CFFBE83B703D3DC45 /* Check Pods Manifest.lock */,
 				5475DB071C76C56C0033C1E9 /* Sources */,
 				5475DB081C76C56C0033C1E9 /* Frameworks */,
 				5475DB091C76C56C0033C1E9 /* Resources */,
-				5065F3331412084F14A63A32 /* [CP] Embed Pods Frameworks */,
-				2ABEA40E05CDB65F315D6840 /* [CP] Copy Pods Resources */,
+				C0B0D8D3AC4D6DC73ADB8422 /* Embed Pods Frameworks */,
+				CD6A2048DBD29E764EF8F29B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -320,7 +304,6 @@
 			knownRegions = (
 				en,
 				Base,
-				"zh-Hans",
 			);
 			mainGroup = 5475DB021C76C56C0033C1E9;
 			productRefGroup = 5475DB0C1C76C56C0033C1E9 /* Products */;
@@ -339,9 +322,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				543DF3041CA38FB9004F615F /* Info.plist in Resources */,
-				543DF3131CA3BED1004F615F /* InfoPlist.strings in Resources */,
-				543DF30D1CA39883004F615F /* Localizable.strings in Resources */,
 				5475DB211C76C56C0033C1E9 /* LaunchScreen.storyboard in Resources */,
 				5475DB1E1C76C56C0033C1E9 /* Assets.xcassets in Resources */,
 				5475DB191C76C56C0033C1E9 /* Main.storyboard in Resources */,
@@ -365,49 +345,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2622AFE2B8C5C0ED151DA02A /* [CP] Check Pods Manifest.lock */ = {
+		5F93A77CFFBE83B703D3DC45 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		2ABEA40E05CDB65F315D6840 /* [CP] Copy Pods Resources */ = {
+		C0B0D8D3AC4D6DC73ADB8422 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlavaMusic/Pods-FlavaMusic-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5065F3331412084F14A63A32 /* [CP] Embed Pods Frameworks */ = {
+		CD6A2048DBD29E764EF8F29B /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlavaMusic/Pods-FlavaMusic-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -419,7 +399,6 @@
 			files = (
 				54FD613F1C76E7760022CA54 /* FMDataService.m in Sources */,
 				5475DB161C76C56C0033C1E9 /* ViewController.m in Sources */,
-				54091EF01D9238AE00690DE5 /* FMScanViewController.m in Sources */,
 				5475DB131C76C56C0033C1E9 /* AppDelegate.m in Sources */,
 				5475DB1C1C76C56C0033C1E9 /* FlavaMusic.xcdatamodeld in Sources */,
 				5475DB101C76C56C0033C1E9 /* main.m in Sources */,
@@ -458,29 +437,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		543DF30F1CA39883004F615F /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				543DF30E1CA39883004F615F /* en */,
-				543DF3101CA39885004F615F /* zh-Hans */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		543DF3151CA3BED1004F615F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				543DF3141CA3BED1004F615F /* en */,
-				543DF3161CA3BED3004F615F /* zh-Hans */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		5475DB171C76C56C0033C1E9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5475DB181C76C56C0033C1E9 /* Base */,
-				543DF2F51CA3828D004F615F /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -489,7 +449,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				5475DB201C76C56C0033C1E9 /* Base */,
-				543DF2F61CA3828D004F615F /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -581,10 +540,9 @@
 		};
 		5475DB3C1C76C56D0033C1E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05ACC330BC9C75D8C0FB38CF /* Pods-FlavaMusic.debug.xcconfig */;
+			baseConfigurationReference = A79C7AA873AB4EF818C6F94F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Developer Chelun (37DD9HVT5Z)";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FlavaMusic/FlavaMusic-prefix.pch";
 				INFOPLIST_FILE = FlavaMusic/Info.plist;
@@ -607,13 +565,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.congcong.FlavaMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d76ed582-4034-4ffc-a7d4-4da0f5593d22";
 			};
 			name = Debug;
 		};
 		5475DB3D1C76C56D0033C1E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 106AD8489B80D9B53A180590 /* Pods-FlavaMusic.release.xcconfig */;
+			baseConfigurationReference = 0DD6B20961A9B8981DD5EACF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -638,7 +595,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.congcong.FlavaMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d76ed582-4034-4ffc-a7d4-4da0f5593d22";
 			};
 			name = Release;
 		};
