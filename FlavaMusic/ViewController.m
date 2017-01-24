@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "FMDataService.h"
+#import "CLDataService.h"
 #import "FMScrollHeaderCell.h"
 #import "FMRefreshHeaderView.h"
 
@@ -26,11 +27,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [FMDataService getRequestWithMethod:@"alibaba.xiami.api.rank.index.get" parameters:nil success:^(NSURLSessionDataTask *task, id  _Nullable responseObject) {
-        
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError *error) {
+    
+    [CLDataService getRequestWithMethod:@"v2-car-getModelEntranceInfo.html" parameters:nil success:^(NSURLSessionDataTask * _Nullable task, id  _Nullable responseObject) {
+        NSLog(@"222222222");
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error) {
         
     }];
+    
+    NSLog(@"111111111");
     
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     _tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
@@ -44,6 +48,16 @@
     _refreshHeaderView.defaultContentInset = _tableView.contentInset;
     [_tableView addSubview:_refreshHeaderView];
     
+}
+
+- (void)FMDataService
+{
+    [FMDataService getRequestWithMethod:@"alibaba.xiami.api.rank.index.get" parameters:nil success:^(NSURLSessionDataTask *task, id  _Nullable responseObject) {
+        
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError *error) {
+        
+    }];
+
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView

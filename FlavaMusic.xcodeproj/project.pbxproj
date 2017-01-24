@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5456A4F91E371A8300590A98 /* CLDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456A4F81E371A8300590A98 /* CLDataService.m */; };
 		5475DB101C76C56C0033C1E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475DB0F1C76C56C0033C1E9 /* main.m */; };
 		5475DB131C76C56C0033C1E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475DB121C76C56C0033C1E9 /* AppDelegate.m */; };
 		5475DB161C76C56C0033C1E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475DB151C76C56C0033C1E9 /* ViewController.m */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5456A4F71E371A8300590A98 /* CLDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDataService.h; sourceTree = "<group>"; };
+		5456A4F81E371A8300590A98 /* CLDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDataService.m; sourceTree = "<group>"; };
 		5475DB0B1C76C56C0033C1E9 /* FlavaMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlavaMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5475DB0F1C76C56C0033C1E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5475DB111C76C56C0033C1E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -116,6 +119,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5456A4F51E371A5700590A98 /* CLCommon */ = {
+			isa = PBXGroup;
+			children = (
+				5456A4F61E371A5700590A98 /* model */,
+			);
+			path = CLCommon;
+			sourceTree = "<group>";
+		};
+		5456A4F61E371A5700590A98 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5456A4F71E371A8300590A98 /* CLDataService.h */,
+				5456A4F81E371A8300590A98 /* CLDataService.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		5475DB021C76C56C0033C1E9 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +168,7 @@
 				5475DB171C76C56C0033C1E9 /* Main.storyboard */,
 				54FD61411C76EAEA0022CA54 /* FMConstant.h */,
 				54FD61391C76E7430022CA54 /* FMCommon */,
+				5456A4F51E371A5700590A98 /* CLCommon */,
 				5475DB1D1C76C56C0033C1E9 /* Assets.xcassets */,
 				5475DB1F1C76C56C0033C1E9 /* LaunchScreen.storyboard */,
 				5475DB221C76C56C0033C1E9 /* Info.plist */,
@@ -449,6 +470,7 @@
 				5475DB161C76C56C0033C1E9 /* ViewController.m in Sources */,
 				5475DB131C76C56C0033C1E9 /* AppDelegate.m in Sources */,
 				5475DB1C1C76C56C0033C1E9 /* FlavaMusic.xcdatamodeld in Sources */,
+				5456A4F91E371A8300590A98 /* CLDataService.m in Sources */,
 				6FDB85B61D5B6AE500D9CAB8 /* FMScrollHeaderCell.m in Sources */,
 				6FDB85C71D676F8C00D9CAB8 /* FMRefreshAnimationView.m in Sources */,
 				5475DB101C76C56C0033C1E9 /* main.m in Sources */,
@@ -595,7 +617,7 @@
 			baseConfigurationReference = A9AA1334DB95FF24FDA1ED70 /* Pods-FlavaMusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: hui zhu (623YL823NP)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Developer Chelun (37DD9HVT5Z)";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FlavaMusic/FlavaMusic-prefix.pch";
 				INFOPLIST_FILE = FlavaMusic/Info.plist;
@@ -619,6 +641,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.congcong.FlavaMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5cbf8b1a-13a8-4d4e-81ce-5132883e9ce1";
+				PROVISIONING_PROFILE_SPECIFIER = "chelun any app";
 			};
 			name = Debug;
 		};
@@ -627,7 +650,7 @@
 			baseConfigurationReference = CC648626B2FE6752514EBDB3 /* Pods-FlavaMusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: hui zhu (623YL823NP)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Developer Chelun (37DD9HVT5Z)";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FlavaMusic/FlavaMusic-prefix.pch";
 				INFOPLIST_FILE = FlavaMusic/Info.plist;
@@ -651,6 +674,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.congcong.FlavaMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5cbf8b1a-13a8-4d4e-81ce-5132883e9ce1";
+				PROVISIONING_PROFILE_SPECIFIER = "chelun any app";
 			};
 			name = Release;
 		};

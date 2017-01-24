@@ -1,15 +1,15 @@
 //
-//  FMDataService.h
+//  CLDataService.h
 //  FlavaMusic
 //
-//  Created by R_flava_Man on 16/2/19.
-//  Copyright © 2016年 R_style_Man. All rights reserved.
+//  Created by R_flava_Man on 17/1/24.
+//  Copyright © 2017年 R_style_Man. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import <AFNetworking/AFNetworking.h>
+#import "AFHTTPSessionManager.h"
 
-@interface FMDataService : NSObject
+@interface CLDataService : NSObject
 
 + (void)getRequestWithMethod:(NSString * _Nullable)method
                   parameters:(NSDictionary * _Nullable)parameters

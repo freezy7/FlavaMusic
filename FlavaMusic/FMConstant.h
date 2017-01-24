@@ -15,6 +15,7 @@
 #if (defined FMConstant_h)
 
 #define APP_TAOBAO_SERVER           @"https://eco.taobao.com/router/rest"
+#define APP_BAOJIA_SERVER           @"https://baojia.chelun.com"
 
 #else
 
