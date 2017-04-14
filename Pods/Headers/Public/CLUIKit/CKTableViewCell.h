@@ -1,0 +1,1 @@
+../../../CLUIKit/CLUIKit/base/CKTableViewCell.h

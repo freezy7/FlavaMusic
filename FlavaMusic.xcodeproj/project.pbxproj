@@ -17,6 +17,7 @@
 		5475DB211C76C56C0033C1E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5475DB1F1C76C56C0033C1E9 /* LaunchScreen.storyboard */; };
 		5475DB2C1C76C56C0033C1E9 /* FlavaMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475DB2B1C76C56C0033C1E9 /* FlavaMusicTests.m */; };
 		5475DB371C76C56C0033C1E9 /* FlavaMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475DB361C76C56C0033C1E9 /* FlavaMusicUITests.m */; };
+		54B3DCE01E9CEE2B00FF236D /* QueryViolations_ent-LinkMap-normal-arm64.txt in Resources */ = {isa = PBXBuildFile; fileRef = 54B3DCDF1E9CEE2B00FF236D /* QueryViolations_ent-LinkMap-normal-arm64.txt */; };
 		54FD613F1C76E7760022CA54 /* FMDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD613E1C76E7760022CA54 /* FMDataService.m */; };
 		6FDB85B61D5B6AE500D9CAB8 /* FMScrollHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB85B51D5B6AE500D9CAB8 /* FMScrollHeaderCell.m */; };
 		6FDB85B91D5B6BF500D9CAB8 /* FMScrollHeaderItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB85B81D5B6BF500D9CAB8 /* FMScrollHeaderItemView.m */; };
@@ -65,6 +66,7 @@
 		5475DB321C76C56C0033C1E9 /* FlavaMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlavaMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5475DB361C76C56C0033C1E9 /* FlavaMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlavaMusicUITests.m; sourceTree = "<group>"; };
 		5475DB381C76C56D0033C1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54B3DCDF1E9CEE2B00FF236D /* QueryViolations_ent-LinkMap-normal-arm64.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "QueryViolations_ent-LinkMap-normal-arm64.txt"; sourceTree = "<group>"; };
 		54FD613D1C76E7760022CA54 /* FMDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDataService.h; sourceTree = "<group>"; };
 		54FD613E1C76E7760022CA54 /* FMDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDataService.m; sourceTree = "<group>"; };
 		54FD61401C76EA1A0022CA54 /* FlavaMusic-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlavaMusic-prefix.pch"; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 		6FDB85BD1D676BC400D9CAB8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				54B3DCDF1E9CEE2B00FF236D /* QueryViolations_ent-LinkMap-normal-arm64.txt */,
 				6FDB85BE1D676BC400D9CAB8 /* image */,
 			);
 			path = Resources;
@@ -388,6 +391,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B3DCE01E9CEE2B00FF236D /* QueryViolations_ent-LinkMap-normal-arm64.txt in Resources */,
 				5475DB211C76C56C0033C1E9 /* LaunchScreen.storyboard in Resources */,
 				6FDB85C41D676BC400D9CAB8 /* refresh_header_ani_2@2x.png in Resources */,
 				6FDB85C21D676BC400D9CAB8 /* refresh_header_ani_0@2x.png in Resources */,

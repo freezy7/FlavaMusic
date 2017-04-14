@@ -1,0 +1,9 @@
+CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR/RegexKitLite
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/RegexKitLite" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/BPCommon" "${PODS_ROOT}/Headers/Public/CKOpenUDID" "${PODS_ROOT}/Headers/Public/CLNetKit" "${PODS_ROOT}/Headers/Public/CLUIKit" "${PODS_ROOT}/Headers/Public/CLUtilKit" "${PODS_ROOT}/Headers/Public/FLAnimatedImage" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/JSPatch" "${PODS_ROOT}/Headers/Public/MD5Digest" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/RegexKitLite" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/cl_SDWebImageAdditions" "${PODS_ROOT}/Headers/Public/libwebp"
+OTHER_LDFLAGS = -l"icucore"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

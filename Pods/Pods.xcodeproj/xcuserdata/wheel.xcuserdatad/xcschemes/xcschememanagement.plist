@@ -9,7 +9,42 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>BPCommon.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CKOpenUDID.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CLNetKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CLUIKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CLUtilKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FLAnimatedImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FMDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JSPatch.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -24,7 +59,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Reachability.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RegexKitLite.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cl_SDWebImageAdditions.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>libwebp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,22 +92,77 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>40D5666B0D827FFF261D9F14AADF06AE</key>
+		<key>2E39E5D8C004D8678AF17280A2AB0AA1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>44BA8D3DE1795DCF41C84C052616F9BF</key>
+		<key>416A09F7CD22F509B07A0F0BF1B0E418</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8642CC820CE8C5B88C113D7F47AF4BC3</key>
+		<key>55526A6E1BFC54069AB86762AACA9586</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5DDB7302B97E39D55BAFC89B388742CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6BE41B18F66C76771FF1205A789E8178</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>73CADFB955A0850E5BD590F38525B84A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7DF402189A631C17C18D8C63081CEA3A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A323DE3E7E22F1A08A77BF48FCB52DD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7D36E698F673453626D7901CF86A321</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4D796E7FC8AFC2C5776495FA37B734A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD001C79ABEDED2112BD0A850B8AE0E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F6A6450A8172178F3C44BB106A41CFCA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FB1B608CA194B526EEF0EC7ADC16F3B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FCAFFBDB6B22782EC15AD433E109533F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

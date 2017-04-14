@@ -1,0 +1,1 @@
+../../../BPCommon/BPCommon/thirdParty/ASIHttpRequest/S3/ASIS3Bucket.h

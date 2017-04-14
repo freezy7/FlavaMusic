@@ -1,0 +1,1 @@
+../../../cl_SDWebImageAdditions/SDWebImageAdditions/CLWebCache/UIImage+ImageEffects.h

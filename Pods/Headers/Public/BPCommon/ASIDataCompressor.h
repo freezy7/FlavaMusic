@@ -1,0 +1,1 @@
+../../../BPCommon/BPCommon/thirdParty/ASIHttpRequest/ASIDataCompressor.h

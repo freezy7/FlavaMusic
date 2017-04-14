@@ -1,0 +1,1 @@
+../../../BPCommon/BPCommon/util/additions/BPNSString+ios7sizefix.h
