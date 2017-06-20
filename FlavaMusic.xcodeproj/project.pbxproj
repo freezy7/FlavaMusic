@@ -18,6 +18,9 @@
 		5475DB2C1C76C56C0033C1E9 /* FlavaMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475DB2B1C76C56C0033C1E9 /* FlavaMusicTests.m */; };
 		5475DB371C76C56C0033C1E9 /* FlavaMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475DB361C76C56C0033C1E9 /* FlavaMusicUITests.m */; };
 		54B3DCE01E9CEE2B00FF236D /* QueryViolations_ent-LinkMap-normal-arm64.txt in Resources */ = {isa = PBXBuildFile; fileRef = 54B3DCDF1E9CEE2B00FF236D /* QueryViolations_ent-LinkMap-normal-arm64.txt */; };
+		54EBA2A91EF9062E006EA773 /* alldata.txt in Resources */ = {isa = PBXBuildFile; fileRef = 54EBA2A61EF9062E006EA773 /* alldata.txt */; };
+		54EBA2AA1EF9062E006EA773 /* classlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 54EBA2A71EF9062E006EA773 /* classlist.txt */; };
+		54EBA2AB1EF9062E006EA773 /* classrefer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 54EBA2A81EF9062E006EA773 /* classrefer.txt */; };
 		54FD613F1C76E7760022CA54 /* FMDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD613E1C76E7760022CA54 /* FMDataService.m */; };
 		6FDB85B61D5B6AE500D9CAB8 /* FMScrollHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB85B51D5B6AE500D9CAB8 /* FMScrollHeaderCell.m */; };
 		6FDB85B91D5B6BF500D9CAB8 /* FMScrollHeaderItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB85B81D5B6BF500D9CAB8 /* FMScrollHeaderItemView.m */; };
@@ -67,6 +70,9 @@
 		5475DB361C76C56C0033C1E9 /* FlavaMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlavaMusicUITests.m; sourceTree = "<group>"; };
 		5475DB381C76C56D0033C1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B3DCDF1E9CEE2B00FF236D /* QueryViolations_ent-LinkMap-normal-arm64.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "QueryViolations_ent-LinkMap-normal-arm64.txt"; sourceTree = "<group>"; };
+		54EBA2A61EF9062E006EA773 /* alldata.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alldata.txt; sourceTree = "<group>"; };
+		54EBA2A71EF9062E006EA773 /* classlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = classlist.txt; sourceTree = "<group>"; };
+		54EBA2A81EF9062E006EA773 /* classrefer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = classrefer.txt; sourceTree = "<group>"; };
 		54FD613D1C76E7760022CA54 /* FMDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDataService.h; sourceTree = "<group>"; };
 		54FD613E1C76E7760022CA54 /* FMDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDataService.m; sourceTree = "<group>"; };
 		54FD61401C76EA1A0022CA54 /* FlavaMusic-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlavaMusic-prefix.pch"; sourceTree = "<group>"; };
@@ -211,6 +217,9 @@
 		54FD61351C76E4620022CA54 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				54EBA2A61EF9062E006EA773 /* alldata.txt */,
+				54EBA2A71EF9062E006EA773 /* classlist.txt */,
+				54EBA2A81EF9062E006EA773 /* classrefer.txt */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -394,9 +403,12 @@
 				54B3DCE01E9CEE2B00FF236D /* QueryViolations_ent-LinkMap-normal-arm64.txt in Resources */,
 				5475DB211C76C56C0033C1E9 /* LaunchScreen.storyboard in Resources */,
 				6FDB85C41D676BC400D9CAB8 /* refresh_header_ani_2@2x.png in Resources */,
+				54EBA2AA1EF9062E006EA773 /* classlist.txt in Resources */,
 				6FDB85C21D676BC400D9CAB8 /* refresh_header_ani_0@2x.png in Resources */,
+				54EBA2A91EF9062E006EA773 /* alldata.txt in Resources */,
 				5475DB1E1C76C56C0033C1E9 /* Assets.xcassets in Resources */,
 				6FDB85C31D676BC400D9CAB8 /* refresh_header_ani_1@2x.png in Resources */,
+				54EBA2AB1EF9062E006EA773 /* classrefer.txt in Resources */,
 				5475DB191C76C56C0033C1E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +442,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		8E5F9E211F91B334889EFDAC /* [CP] Embed Pods Frameworks */ = {

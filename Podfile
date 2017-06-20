@@ -18,7 +18,5 @@ target 'FlavaMusic' do
     pod 'FMDB', '~> 2.5'
     pod 'JSPatch', '~> 1.1.3'
     pod 'MD5Digest'
-    pod 'CLUtilKit'
-    pod 'CLUIKit'
     
 end

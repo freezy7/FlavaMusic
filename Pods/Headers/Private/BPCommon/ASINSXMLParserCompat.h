@@ -1,1 +1,0 @@
-../../../BPCommon/BPCommon/thirdParty/ASIHttpRequest/S3/ASINSXMLParserCompat.h

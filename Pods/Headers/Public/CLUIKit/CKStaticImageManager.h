@@ -1,1 +1,0 @@
-../../../CLUIKit/CLUIKit/util/CKStaticImageManager.h
